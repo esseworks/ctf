@@ -1,6 +1,3 @@
-require "ctf/version"
-require 'paperclip/railtie' if defined?(Rails)
-
 module Ctf
-  # Your code goes here...
+  require 'ctf/railtie' if defined?(Rails)
 end

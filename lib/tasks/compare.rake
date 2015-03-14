@@ -1,9 +1,8 @@
 namespace :ctf do
 
-  desc "Compare translation files"
-  task :compare do
-
+  desc "Compare Translation Files"
+  task compare: :environment do
     puts "Hello"
-
   end
+
 end
